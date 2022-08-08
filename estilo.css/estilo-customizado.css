@@ -1,0 +1,172 @@
+/*Área de configuração background body
+________________________________________________________*/
+
+html, body, #home{
+	height: 100%;
+}
+
+body{
+	background: url(../img/river.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	/*backbround ficará fixado*/
+	font-family: Helvetica,Ariel,sans-serif;
+}
+
+/*Área de configuração background body
+________________________________________________________*/
+
+
+/*Área de configuração site
+________________________________________________________*/
+
+.capa{
+	text-align: center;
+}
+
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	transition: background 0.4s, color 0.4s;
+	padding: 10px 20px;
+}
+
+.btn-cinza{
+	background: #848484;
+}
+
+.btn-cinza:hover{
+	background: #FF0040;
+	color: white;
+}
+
+/*Área de configuração capa site
+________________________________________________________*/
+
+
+/*Área de configuração menu
+________________________________________________________*/
+
+nav.navbar-transparente{
+	padding: 15px 0px;
+	/*Superior e inferior com 15 pixels, esquerda direita com 0 pixels*/
+	background: rgba(0, 0, 0, 0.6);
+	/*Valores com red, green e blue zerados, opacidade 0.6*/
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+	text-transform: uppercase;
+	/*essa formatação serve para sobescrever a formatação anterior do bootstrap */
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #FF0040;
+}
+
+/*Área de configuração menu
+________________________________________________________*/
+
+
+/*Área de Tipografia
+________________________________________________________*/
+
+h1{
+	font-weight: 900;
+	/*tamanho do espaço entre as letras*/
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+}
+
+h2{
+	font-size: 2.5em;
+	font-weight: 500;
+	letter-spacing: -0.04em;
+}
+
+h3{
+	font-size: 2em;
+	font-weight: 700 ;
+	letter-spacing: -0.04em;
+}
+
+/*Área de Tipografia
+________________________________________________________*/
+
+/*Área de Conteúdo
+________________________________________________________*/
+
+#cor-fundo{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.imagem-borda{
+	border-radius: 10px;
+}
+
+#recursos{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#recursos p {
+	color: white;
+}
+
+#recursos h3 {
+	color: #FFFFFF;
+}
+
+#recursos h2 {
+	color: #FFF;
+}
+
+
+.rotacionar{
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);/*IE 9*/
+	-webkit-transform: rotate(30deg);/*Chrome, Safari, Opera*/
+	padding-left: 80px;
+}
+
+/*Área de Conteúdo
+________________________________________________________*/
+
+
+footer{
+	background-color: #000;
+	padding: 50px 0 20px 0;
+	position: relative;
+
+}
+footer h4{
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer ul li{
+	float: right;
+	margin: 0 5px;
+}
